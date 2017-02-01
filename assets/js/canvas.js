@@ -1,7 +1,7 @@
 //This code written by "dissimulate" not by me.
 //Thank you for your awesome simulation :)
 function detectmob() {
-   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+   if(window.innerWidth <= 860 && window.innerHeight <= 721) {
      return true;
    } else {
      return false;
