@@ -1,7 +1,13 @@
 //This code written by "dissimulate" not by me.
 //Thank you for your awesome simulation :)
-
-
+function detectmob() {
+   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+     return true;
+   } else {
+     return false;
+   }
+}
+if(!detectmob()){
 window.requestAnimFrame =
   window.requestAnimationFrame ||
   window.webkitRequestAnimationFrame ||
@@ -242,3 +248,4 @@ function reset() {
 
   window.requestAnimFrame(update)
 })(0)
+}
