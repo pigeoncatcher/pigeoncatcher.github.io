@@ -6,14 +6,14 @@ body {
 
 #container {
   width: 1920px;
-  margin: auto;
+  margin: center;
 }
 
 /*Neon*/
 p {
   text-align: center;
   font-size: 7em;
-  margin: 25px 0 25px 0;
+  margin: 50px 0 50px 0;
 }
 
 a {
