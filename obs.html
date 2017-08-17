@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Loster TV</title>
+  <link href='https://fonts.googleapis.com/css?family=Audiowide|Iceland|Monoton|Pacifico|Press+Start+2P|Vampiro+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="container">
+
+
+  <p><a>
+    LOSTER TV
+  </a></p>
+    <p><a>
+    Toplanın mesele var
+  </a></p>
+      <p><a>
+    Yayına <span id="countdowntimer">600 </span> saniye
+
+<script type="text/javascript">
+    var timeleft = 600;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+</script>
+  </a></p>
+
+</div>
+
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
