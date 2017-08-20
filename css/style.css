@@ -4,7 +4,6 @@ body {
   background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
 }
 #container {
-<<<<<<< HEAD
   position: relative;
 }
 #circle {
@@ -24,46 +23,6 @@ body {
     animation: neon1 2s ease-in-out infinite alternate;
 }
 #countdowntimer{
-=======
-  width: 1920px;
-  margin: auto;
-}
-
-/*Neon*/
-p {
-  text-align: center;
-  font-size: 7em;
-  margin: 25px 0 25px 0;
-}
-
-a {
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  text-align: center;
-}
-
-p:nth-child(1) a {
-  color: #fff;
-  font-family: Monoton;
-}
-
-p:nth-child(1) a:hover {
-  color: #FF1177;
-  -webkit-animation: none;
-  animation: none;
-}
-
-p:nth-child(2) a:hover {
-  font-size: 0.7em;
-  color: #FFDD1B;
-  font-family: Abel;
-}
-
-p:nth-child(2) a {
-	font-size: 0.7em;
-	font-family: Abel;
->>>>>>> origin/master
 	color: #fff;
 	text-align: center;
 	font-family: Calibri;
