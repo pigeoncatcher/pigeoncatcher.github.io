@@ -51,6 +51,6 @@ body {
     box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
   }
   to {
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0040a8, 0 0 35px #0040a8, 0 0 40px #0040a8, 0 0 50px #0040a8, 0 0 75px #0040a8;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #aa0000, 0 0 35px #aa0000, 0 0 40px #aa0000, 0 0 50px #aa0000, 0 0 75px #aa0000;
   }
 }
