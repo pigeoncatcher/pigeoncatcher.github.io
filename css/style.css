@@ -46,6 +46,9 @@ body {
 	transform: translate(-50%, -50%);
 	font-size: 55px;
 }
+#twitch{
+	float: right;
+}
 @-webkit-keyframes neon1 {
   from {
     box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
