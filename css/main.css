@@ -16,11 +16,9 @@ body{
 #525B56
 --*/
 #note{
-	clear: both;
 	position: fixed;
 	margin-top: 10px;
 	margin-left: 50px;
-	padding: 50px;
 }
  
 #menu{
