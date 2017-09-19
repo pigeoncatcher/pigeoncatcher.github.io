@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #525B56;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 0;
+}
+/*-- Color Scheme
+#040c0e
+#132226
+#525B56
+--*/
+#note{
+	clear: both;
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+ 
+#menu{
+	position: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 0px;
+	z-index: 1;
+	top:0;
+	left: 0;
+	border: 0;
+	overflow-x: hidden;
+	background: #132226;
+	height: 100%;
+	transition: 0.5s;
+	box-shadow: 0 0 25px #132226, 0 0 50px #132226,0 0 75px #132226;
+	z-index: 2;
+}
+#menu  a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	transition: 0.20s ease-in-out;
+	background: #132226;
+	padding: 15px 15px;
+	z-index: 1;
+}
+#menu a:hover{
+	transform: scale(1.09);
+	color: #fff;
+	background-color: #525B56;
+	text-shadow: 0 0 5px #fff;
+}
+.sidenav .closebtn {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 23px;
+	transition: 0.15s ease-in;
+	background: #c1c1c1;
+	padding: 15px 15px;
+}
+.sidenav .closebtn:hover {
+	transform: scale(1.09);
+	background: #fff;
+	color:#ff00de;
+    box-shadow: 0 0px 90px #fff;
+}
+#button{
+	position: fixed;
+	display: block;
+	width: 45px;
+	height: 40px;
+
+}
+.bar {
+	list-style-type: none;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 5px;
+	transition: 0.15s ease-in;
+}
+#button:hover > .bar{
+	transform: scale(1.09);
+	background: #fff;
+	color:#ff00de;
+	box-shadow: 0 0px 90px #fff;
+	color: white;
+}
+
+#chat{
+	top: 0;
+	right: 0;
+	position: absolute;
+	border: 0px;
+	background: #132226;
+	height: 100%;
+	width: %20;
+}
+}
