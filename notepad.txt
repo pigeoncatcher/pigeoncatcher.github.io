@@ -1,2 +1,0 @@
-		<div class="grid-7">7</div>
-		<div class="grid-8">8</div>
