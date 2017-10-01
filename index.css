@@ -125,11 +125,7 @@ body::-webkit-scrollbar-thumb:hover {
 	font-size: 2.3vw;
 }
 .twitter-timeline{
-	transition: 0.3s ease-in-out;
 	height: 100%;
-}
-.twitter-timeline:hover{
-	box-shadow: 0 0 50px;
 }
 #grid-2{
 	background-color: #fff !important;
