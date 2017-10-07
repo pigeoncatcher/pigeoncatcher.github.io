@@ -6,7 +6,7 @@ body{
 	font-family: "Raleway";
 	text-align: center;
 	margin: 0 auto;
-	background: #525B56;
+	background: #31163d;
 }
 body::-webkit-scrollbar {
     width: 1em;
@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb:hover {
 	position: fixed;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 12% 0;
 	display: block;
 	width: 250px;
 	overflow-x: hidden;
@@ -54,6 +54,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #menu  a{
+	padding: 70px 0;
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -85,22 +86,30 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #main-content div{
 	padding: 0;
-	transition: 0.5s;
+	transition: 0.2s;
 	display: block;
 	background: #180b1e;
+}
+#main-content div:hover{
+	transform: scale(1.01);
+	text-shadow: 0 0 25px #8E24AA ;
 }
 #header{
 	background: #6A1B9A ;
 	box-shadow: inset 0 0 250px #31163d ;
+	transition: 0.4s;
 }
 #header:hover{
-	
 }
 #header a{
 	font-size: 9vw;
 	text-decoration: none;
 	color:white;
 	text-shadow: 0 0 50px #31163d;
+	transition: 0.3s;
+}
+#header a:hover{
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
 }
 #grid-1{
 }
@@ -111,14 +120,7 @@ body::-webkit-scrollbar-thumb:hover {
 	padding: 20px;
 	transition: 0.3s ease-in-out;
 }
-#grid-1 a img:hover{
-	height: auto;
-	max-height: 250px;
-	min-height: 50px;
-	padding: 20px;
-	filter:drop-shadow(0 0 10px);
-	transform: scale(1.06);
-}
+
 #grid-1 a{
 	text-decoration: none;
 	color:white;
@@ -141,4 +143,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #grid-4{
 
+}
+#discord{
+	width: 100%;
+	border-radius: 0 !important;
 }
