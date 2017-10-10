@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/5c7f0283d8.js"></script>
+  <script type="text/javascript" src="js/main.js">
 
-<script type="text/javascript" src="scripts.js"></script>
-
-<title>DOX Group</title>
-
+  </script>
+</head>
 <body>
-	<nav id="menu">
-		<a href="index.html">Anasayfa</a>
-		<a href="livefeed.html">Twitch</a>
-		<a href="info.html">Hakkımızda</a>
-		<a href="contact.html">İletişim</a>
-	</nav>
-			<header id="header">
-			<a href="#">DOX GROUP</a>
-		</header>
-	<content id="main-content">
+  <div class="container">
+    <header class="stripped">
+      <a class ="Text3D"href="#">Dox Group</a>
+    </header>
 
-		<div id="grid-1" onclick="location.href='#';" style="cursor: pointer;">
-			<a href="#">
-			<img src="img/yt_icon_mono_dark.png">
-			<p>DOX GROUP OFFICIAL YOUTUBE CHANNEL</p>
-			</a>
-		</div>
-		<div id="grid-2">
-			<a class="twitter-timeline" data-dnt="true"data-link-color="#525B56"
-			data-tweet-limit="1"
-			href="https://twitter.com/dozajloster">Tweets by dozajloster</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-		<div id="grid-3">
-			<iframe
-			src="https://player.twitch.tv/?channel=dozajloster"
-			frameborder="0"
-			scrolling="no"
-			allowfullscreen="true"
-			id="twitch-embed">
-			</iframe>
-		</div>
-		<div id="grid-4">
-			<iframe src="https://discordapp.com/widget?id=340091643405271052&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-		</div>
-		<div id="grid-5">
+    <menu>
+      <nav>
+        <a href="#" class="link-hover">Anasayfa</a>
+        <a href="#" class="link-hover">Canlı Yayın</a>
+        <a href="#" class="link-hover">İletişim</a>
+        <a href="#" class="link-hover">Web Tasarımı</a>
+      </nav>
+    </menu>
+    <div id="side-chat">
+       <div id="chat-hide" class="chat-button" >
+         <a href="#">Close</a>
+       </div>
+        <iframe id="chat"
+        src="
+        https://www.nightdev.com/hosted/obschat/?theme=light&channel=lirik&fade=45&bot_activity=true&prevent_clipping=false"
+        scrolling="no"
+        style=""></iframe>
+    </div>
+    <div class="Text3D chat-button-closed">
+      <i id="chat-show" class="fa fa-comments-o fa-5x" aria-hidden="true"></i>
+    </div>
 
-		</div>
+    <div class="sidebar">
+      <p>"Yar yar olmazsa, yar yar ederken, yar yara kavuşamaz"</p>
+      <p class="minFontItal">Nurbaki Vural 2017</p>
+    </div>
+    <div class="footer">
+      ©2017-2018 Dox Group All Rights Reserved.
+    </div>
+  </div>
 
-	</content>
 </body>
